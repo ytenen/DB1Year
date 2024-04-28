@@ -1,0 +1,67 @@
+<mxfile host="Electron" modified="2024-04-27T09:49:50.949Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.2.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="LG0XOAjSPZ1OYeWb2oIn" version="24.2.5" type="device">
+  <diagram name="Страница — 1" id="ouAD3fVYFWGZ91AqLQ3o">
+    <mxGraphModel dx="1632" dy="853" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oGfvAcXl0vGkd2oLyQN8-1" value="Н_ТИПЫ_ВЕДОМОСТЕЙ" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="110" y="180" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oGfvAcXl0vGkd2oLyQN8-2" value="Н_ВЕДОМОСТИ" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="550" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oGfvAcXl0vGkd2oLyQN8-3" value="&lt;span style=&quot;color: rgba(255, 255, 255, 0.85); font-family: &amp;quot;Helvetica Neue&amp;quot;; text-align: start; background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;⋈&lt;/font&gt;&lt;/span&gt;Н_ВЕДОМОСТИ.ТВ_ИД = Н_ТИПЫ_ВЕДОМОСТЕЙ_ИД" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="250" y="300" width="350" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oGfvAcXl0vGkd2oLyQN8-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" source="oGfvAcXl0vGkd2oLyQN8-2" target="oGfvAcXl0vGkd2oLyQN8-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="360" as="sourcePoint" />
+            <mxPoint x="440" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oGfvAcXl0vGkd2oLyQN8-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="oGfvAcXl0vGkd2oLyQN8-1" target="oGfvAcXl0vGkd2oLyQN8-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="360" as="sourcePoint" />
+            <mxPoint x="440" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oGfvAcXl0vGkd2oLyQN8-6" value="&lt;span style=&quot;color: rgba(255, 255, 255, 0.85); font-family: &amp;quot;Helvetica Neue&amp;quot;; text-align: start; background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;σ&lt;/font&gt;&lt;/span&gt;Н_ТИПЫ_ВЕДОМОСТЕЙ.НАИМЕНОВАНИЕ &amp;gt; Ведомость" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="247" y="450" width="356" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oGfvAcXl0vGkd2oLyQN8-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="oGfvAcXl0vGkd2oLyQN8-3" target="oGfvAcXl0vGkd2oLyQN8-6" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="360" as="sourcePoint" />
+            <mxPoint x="440" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oGfvAcXl0vGkd2oLyQN8-8" value="&lt;span style=&quot;color: rgba(255, 255, 255, 0.85); font-family: &amp;quot;Helvetica Neue&amp;quot;; text-align: start; background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;σ&lt;/font&gt;&lt;/span&gt;Н_ВЕДОМОСТИ.ЧЛВК_ИД &amp;lt; 163249" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="302.5" y="585" width="245" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oGfvAcXl0vGkd2oLyQN8-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="oGfvAcXl0vGkd2oLyQN8-6" target="oGfvAcXl0vGkd2oLyQN8-8" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="610" as="sourcePoint" />
+            <mxPoint x="440" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oGfvAcXl0vGkd2oLyQN8-10" value="&lt;span style=&quot;color: rgba(255, 255, 255, 0.85); font-family: &amp;quot;Helvetica Neue&amp;quot;; text-align: start; background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;σ&lt;/font&gt;&lt;/span&gt;Н_ВЕДОМОСТИ.ЧЛВК_ИД &amp;gt; 153285" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="302.5" y="730" width="245" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oGfvAcXl0vGkd2oLyQN8-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="oGfvAcXl0vGkd2oLyQN8-8" target="oGfvAcXl0vGkd2oLyQN8-10" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="610" as="sourcePoint" />
+            <mxPoint x="440" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oGfvAcXl0vGkd2oLyQN8-12" value="&lt;span style=&quot;color: rgba(255, 255, 255, 0.85); font-family: &amp;quot;Helvetica Neue&amp;quot;; text-align: start; background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;π&lt;/font&gt;&lt;/span&gt;Н_ТИПЫ_ВЕДОМОСТЕЙ.ИД, Н_ВЕДОМОСТИ.ДАТА" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="242.5" y="860" width="365" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oGfvAcXl0vGkd2oLyQN8-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="oGfvAcXl0vGkd2oLyQN8-10" target="oGfvAcXl0vGkd2oLyQN8-12" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="920" as="sourcePoint" />
+            <mxPoint x="440" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
